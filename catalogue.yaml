@@ -46,10 +46,6 @@
     community.general.npm:
       path: /app
 
-  - name: systemd service
-    ansible.builtin.copy:
-      src: catalogue.service
-      dest: /etc/systemd/system/catalogue.service
 
   - name: copy mongorepo
     ansible.builtin.copy:

@@ -1,6 +1,5 @@
 - name: catalogue configuration
-  hosts: localhost
-  connection: local
+  hosts: catalogue
   become: yes
   tasks:
   - name: disables packages
